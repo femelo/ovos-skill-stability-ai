@@ -19,6 +19,9 @@ ovos_skill_stability_ai = [
 [tool.hatch.version]
 path = "src/ovos_skill_stability_ai/__version__.py"
 
+[tool.hatch.metadata]
+allow-direct-references = true
+
 [project]
 name = "ovos-skill-stability-ai"
 keywords = [
@@ -45,7 +48,7 @@ classifiers = [
 dependencies = [
     "ovos-utils",
     "ovos-workshop",
-    "stability-ai-api",
+    "stability-ai-api @ git+https://github.com/femelo/stability-ai-api.git@main",
 ]
 
 [project.optional-dependencies]
