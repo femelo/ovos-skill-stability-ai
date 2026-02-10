@@ -62,5 +62,5 @@ dev = [
 Homepage = "https://github.com/femelo/ovos-skill-stability-ai"
 Issues = "https://github.com/femelo/ovos-skill-stability-ai/issues"
 
-[project.entry-points."ovos.plugin.skill"]
+[project.entry-points."opm.skill"]
 "ovos-skill-stability-ai.femelo" = "ovos_skill_stability_ai:StabilityAiSkill"
